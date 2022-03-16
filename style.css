@@ -4,3 +4,56 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    padding: 50px;
+}
+
+table{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.tbl-2{
+    margin-top: 15px;
+
+}
+
+table.tbl-2 td:first-child{
+    background-color: aquamarine;
+}
+
+table.tbl-2 td:last-child{
+    background-color: brown;
+}
+
+table.tbl-2 thead tr:first-child{
+    background-color: blueviolet;
+}
+
+tbody tr:nth-child(odd){
+    background-color: black;
+}
+
+.container{
+    margin:20px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.container div{
+    padding: 10px;
+    background-color: bisque;
+}
+
+div.container div:first-child{
+    border-radius: 10px 0px 0px 10px ;
+}
+
+div.container div:last-child{
+    border-radius: 0 10px 10px 0;
+}
