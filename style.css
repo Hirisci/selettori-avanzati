@@ -41,8 +41,10 @@ tbody tr:nth-child(odd){
 .container{
     margin:20px;
     padding: 1px;
-    display: flex;
+    background-color: rgb(117, 82, 39);
+    display: inline-flex;
     flex-direction: row;
+    border-radius: 10px;
 }
 
 div.container div{
@@ -56,4 +58,13 @@ div.container div:first-child{
 
 div.container div:last-child{
     border-radius: 0 10px 10px 0;
+}
+
+div.container div:hover{
+    background-color: rgb(117, 82, 39);
+    cursor: pointer;
+}
+
+div.container div:active{
+    background-color: green ;
 }
